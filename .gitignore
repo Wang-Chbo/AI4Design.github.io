@@ -1,3 +1,4 @@
 *checkpoints*/
 __pycache__
 *.log
+data/your_apikey.txt
