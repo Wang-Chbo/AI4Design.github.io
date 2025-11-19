@@ -1,5 +1,6 @@
 
 # 使用豆包api
+关于api的原理：【如何理解API，API 是如何工作的 - CSDN App】https://blog.csdn.net/cumtdeyurenjie/article/details/80211896?sharetype=blog&shareId=80211896&sharerefer=APP&sharesource=qq_62814785&sharefrom=link
 
 查看文本生成部分的文档说明
 
