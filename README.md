@@ -1,23 +1,25 @@
-
 # 使用豆包api
-关于api的原理：【如何理解API，API 是如何工作的 - CSDN App】https://blog.csdn.net/cumtdeyurenjie/article/details/80211896?sharetype=blog&shareId=80211896&sharerefer=APP&sharesource=qq_62814785&sharefrom=link
+
+关于api的原理：
+
+【如何理解API，API 是如何工作的 - CSDN App】https://blog.csdn.net/cumtdeyurenjie/article/details/80211896?sharetype=blog&shareId=80211896&sharerefer=APP&sharesource=qq_62814785&sharefrom=link
 
 查看文本生成部分的文档说明
 
 链接：https://www.volcengine.com/docs/82379/1399009
 
-![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGQ5YTNiYWZhNjQzZDhhZDM3YzdlMjFkYzJiNGFhZWNfd081bjR3emRmR21lbWNEdW5jT0ltWEdOWXRRZEdJaWpfVG9rZW46VG42VWJyTTVkb1FaSld4b2E3VmM0U2hQbkhmXzE3NjM1NTY0ODM6MTc2MzU2MDA4M19WNA)
+![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=MjEwNDY0NWMyMjhlZjczNTNiNzEwZDlhOGFkZWIwZjRfZU9LYzFJMDRYaXBFT1N0am1YUWEzWWhacm5pZVNDVTRfVG9rZW46VG42VWJyTTVkb1FaSld4b2E3VmM0U2hQbkhmXzE3NjM1NjQwMDI6MTc2MzU2NzYwMl9WNA)
 
 完成前提条件中的内容然后使用python进行示例代码的运行就可以进行api的调用从而实现文本生成
 点击获取api跳转
 
-![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=ZWE4NTBiOWQ2MDVhNGMyYjg3YTNmNThkZDNlMzk1NzRfZ2VJUFBvTHdjQnNpbjRxM1VSOE5ZR0JTeDM1TGZBdnVfVG9rZW46WlkzSGJZS1pCbzlhUG14R2hydmNGcVBMbmVjXzE3NjM1NTY0ODM6MTc2MzU2MDA4M19WNA)
+![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=NDA0MDc5ODViOWU2NzJiMjQ1OWZhOWQyZTk3MTM2YzlfZFkwdVNJeXNqcDE2T3VoODZVTWtWYUJka1dMRHZkNTdfVG9rZW46WlkzSGJZS1pCbzlhUG14R2hydmNGcVBMbmVjXzE3NjM1NjQwMDI6MTc2MzU2NzYwMl9WNA)
 
 直接创建即可
 
 # 配置一下api
 
-![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=OTJjNGIwMWQzMTliNzJkZWE3NzllNDhmYzdjMGQ4NzZfa2NtUzVjSllrVDA5MHM5aUNzNzA2MWJwcVcxc0hQa21fVG9rZW46RXdxeWI3VmlEb3ViZnR4Q2ozWmNTMkdLbmdoXzE3NjM1NTY0ODM6MTc2MzU2MDA4M19WNA)![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=Mzc5MjQyYWU5NTJhMDA1MjlkM2YxMDczNDIwNDIwNzhfc1MwcVhmekZSRXVTQ0NyMzdZOHNTckg2dHk5T2ZyZk9fVG9rZW46VGRZemJueWNOb2QzTVp4eXB3cmNBSFl5bnphXzE3NjM1NTY0ODM6MTc2MzU2MDA4M19WNA)
+![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=NmE5YTNjYjFlZWIwZDY3MzMxYjczYTgxYTFiOGNmY2RfQWR5RnM3VGgybHd2dmpoUEhQUTgzaENCY0w0UlZEWkNfVG9rZW46RXdxeWI3VmlEb3ViZnR4Q2ozWmNTMkdLbmdoXzE3NjM1NjQwMDI6MTc2MzU2NzYwMl9WNA)![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=YTUyMDJkNTMzZjZiZDZjMGNlYjhkZWI4NDYxNjM0ZDBfREt4VEU3bjFnVTFkb0hwZDFtTExFQXEzSWxGQ0k3OUZfVG9rZW46VGRZemJueWNOb2QzTVp4eXB3cmNBSFl5bnphXzE3NjM1NjQwMDI6MTc2MzU2NzYwMl9WNA)
 
 ```Bash
 #配置apikey到环境变量中（临时）
@@ -26,31 +28,31 @@ export ARK_API_KEY="<ARK_API_KEY>"
 echo 'export ARK_API_KEY="你的实际密钥"' >> ~/.zshrc
 ```
 
-![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=MTYyNzlhMjI1YTBjOGMyNmY3OGY2ZDNmNjVlZmMxMjBfRXlGODJJUkFaWkFwVWczQ1FQWUFKYzljdTVNUDBFeVpfVG9rZW46TkFjOGJDcWNwb2k5Vm54RGd5NmNVT1lJbnJkXzE3NjM1NTY0ODM6MTc2MzU2MDA4M19WNA)
+![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=MzllZDRkZjk1OTRiMzYzYzNhNjUxYzRiMWE5ZTllMzJfZTdDeVZxWW9qclBlV2FZekJ0ckNxdFNVMExpUWhmQVBfVG9rZW46TkFjOGJDcWNwb2k5Vm54RGd5NmNVT1lJbnJkXzE3NjM1NjQwMDI6MTc2MzU2NzYwMl9WNA)
 
 # Access key鉴权
 
 关于这里的access key鉴权，先获取access key
 
-![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=NTcwMmQ0MmNlYzJmNDMyNWM3ZjM3MDVjMTJhMGRiMzNfOEhHVVZxbFluWU9tTXFpYTM0UlRHdDRNaHRpUWkzMlFfVG9rZW46WklQeWJhNHdxb1k0bmd4Q3AzUmMyeDhjbkNiXzE3NjM1NTY0ODM6MTc2MzU2MDA4M19WNA)
+![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=NWFjMDU1MWZjNzE3NjAxMGU2NmYwN2Q2NTI1OGMzMWJfYWlZVklJeWdjRjdFRFhYeFlHdWNsRVFyZXNnOWdaWVJfVG9rZW46WklQeWJhNHdxb1k0bmd4Q3AzUmMyeDhjbkNiXzE3NjM1NjQwMDI6MTc2MzU2NzYwMl9WNA)
 
 直接新建应该就可以了
 
-![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=NWI0N2NkMDhmNDRjMmIxODIzNjllNjk1OGM1M2ZkYTlfMmJYdW04SWFlaG82RndHTUJ0c1RUNzFjOWFyVjZ4RmFfVG9rZW46SktRVmIxMTZyb1NlWVB4UWxUb2MwUllDbm5iXzE3NjM1NTY0ODM6MTc2MzU2MDA4M19WNA)
+![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=OTMyMjM0NTU1NmYwMmY0YmM4YmI3MThmYzAxOGI2M2JfUnVsQmlIODNWbzRNSVFTeGxwVXNNMFoxR0haNVBGdzZfVG9rZW46SktRVmIxMTZyb1NlWVB4UWxUb2MwUllDbm5iXzE3NjM1NjQwMDI6MTc2MzU2NzYwMl9WNA)
 
 # 接入测试
 
-![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=MzJiYjVkMWY2NjNlMjk3ZGU0YzI2YzcxMzQyZWI5NzlfVlFYSEpaNVJ4cjFNNmRiVjdGWldtVmVkdGpHVklzRExfVG9rZW46QWxMUWJCbzQ1bzJhTFJ4SElCVGNuNUIyblRoXzE3NjM1NTY0ODM6MTc2MzU2MDA4M19WNA)
+![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=NDk5MjIzY2M5YWQ0NDFhMzZmMGJhZTg0MjJlYWE1NzlfZ1JnZlZEOURtaUNSU2xubEJLNFN2QlhUTzI5MnpOTDZfVG9rZW46QWxMUWJCbzQ1bzJhTFJ4SElCVGNuNUIyblRoXzE3NjM1NjQwMDI6MTc2MzU2NzYwMl9WNA)
 
 使用火山引擎的sdk进行测试
 
-![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=NTBlNDc0MzA0OTM3NjNkNDAwMTdkZDAxMTA0MzJhYTFfMkF6Z01UZURiN0xiOTJ6T1RjaURXT0YwOGpPRVJVWWFfVG9rZW46Tmw0MWJVSkRTb2Fma1l4MW5meGM3YnZIbm9kXzE3NjM1NTY0ODM6MTc2MzU2MDA4M19WNA)
+![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=YjRiZjk0OWIxNzlmZmQzYzFjNzA3MGZkMzI4NzJhMDZfZE92Z0M4MXhvUDZ0Y2FaWEJDU2EyYzRaYURZQXNOc0tfVG9rZW46Tmw0MWJVSkRTb2Fma1l4MW5meGM3YnZIbm9kXzE3NjM1NjQwMDI6MTc2MzU2NzYwMl9WNA)
 
 # endpoint
 
 获取endpoint：https://www.volcengine.com/docs/82379/1099522
 
-![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=YmNlYjA5ZjY4MTBlNWRhOGZjMzM3Y2IyNjI3MGI2ZGRfTzZxUTcxSEpZTjZaQUc0dk14Z292TUJra1JwWWtUaWdfVG9rZW46QVlSamJaRzBVb00wdU54amN4TmNZVTBCbk9nXzE3NjM1NTY0ODM6MTc2MzU2MDA4M19WNA)
+![](https://kcnvj21glvf4.feishu.cn/space/api/box/stream/download/asynccode/?code=NjM3MDc1NzhhOWJkNGE4MjVmOGJjYmJkODllM2MxZDdfYjBoV1I3dllhUHQyeTRRbzJzalZTWWxBOXBZZmtPakxfVG9rZW46QVlSamJaRzBVb00wdU54amN4TmNZVTBCbk9nXzE3NjM1NjQwMDI6MTc2MzU2NzYwMl9WNA)
 
 直接进行创建即可
 
